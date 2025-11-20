@@ -35,5 +35,13 @@ flutter run
 
 ```
 
+## 📁 Assets
+Add this inside your pubspec.yaml:
+```sh
+flutter:
+  assets:
+    - assets/catdance.gif
+
+```
 
 
