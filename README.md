@@ -62,14 +62,17 @@ flutter:
     - assets/catdance.gif
 ```
 
-▶️ Running the App
+## ▶️ Running the App
 1. Install dependencies
 flutter pub get
+---
 
 2. Run the application
 flutter run
+---
 
-🧠 Logic Overview (How the 24 Solver Works)
+
+## 🧠 Logic Overview (How the 24 Solver Works)
 
 Generates all permutations of the 4 numbers
 
@@ -87,7 +90,9 @@ RPN evaluator
 
 Ensures every puzzle is solvable
 
-🗄️ Database Structure (SQLite)
+---
+
+## 🗄️ Database Structure (SQLite)
 Table: scores — classic mode history
 Column	Type	Description
 id	INTEGER	Primary key
@@ -98,7 +103,9 @@ Table: challenge_best — stored best score
 Column	Type	Description
 id	INTEGER	Always = 1
 best	INTEGER	Best score
-🧪 Future Improvements
+
+----
+## 🧪 Future Improvements
 
 Dark mode
 
@@ -110,7 +117,8 @@ Online leaderboard
 
 Share result to social media
 
-❤️ Credits
+---
+## ❤️ Credits
 
 Developed by วีรากร โนอินทร์
 Flutter 24 Game Project (ICT Mahidol)
