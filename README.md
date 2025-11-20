@@ -22,6 +22,8 @@ The app includes:
 ---
 
 ## 📂 Project Structure
+```sh
+
 DRAFT/
 │
 ├── assets/
@@ -37,6 +39,8 @@ DRAFT/
 │
 ├── pubspec.yaml # Dependencies + assets
 └── README.md # Project documentation
+
+```
 
 ## ▶️ Run the App
 
