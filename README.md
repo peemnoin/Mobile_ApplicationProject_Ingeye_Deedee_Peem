@@ -21,6 +21,23 @@ The app includes:
 
 ---
 
+## 📂 Project Structure
+DRAFT/
+│
+├── assets/
+│ └── catdance.gif
+│
+├── lib/
+│ ├── challenge_page.dart # Challenge Mode
+│ ├── db.dart # SQLite database (scores + challenge best)
+│ ├── game_page.dart # Classic mode gameplay
+│ ├── home_page.dart # Home screen UI (cat GIF)
+│ ├── main.dart # App entry point
+│ └── scores_page.dart # (Optional) Score listing page
+│
+├── pubspec.yaml # Dependencies + assets
+└── README.md # Project documentation
+
 ## ▶️ Run the App
 
 Install dependencies:
@@ -40,6 +57,8 @@ Add this inside your pubspec.yaml:
 ```sh
 flutter:
   assets:
+```sh
+
     - assets/catdance.gif
 
 ```
