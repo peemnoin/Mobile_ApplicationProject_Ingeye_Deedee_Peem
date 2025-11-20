@@ -61,8 +61,6 @@ Add this inside your pubspec.yaml:
 ```sh
 flutter:
   assets:
-```sh
-
     - assets/catdance.gif
 
 ```
