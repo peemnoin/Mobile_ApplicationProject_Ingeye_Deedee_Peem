@@ -27,7 +27,13 @@ Install dependencies:
 ```sh
 flutter pub get
 
+```
+
 Run the app:
 ```sh
 flutter run
+
+```
+
+
 
