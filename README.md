@@ -60,7 +60,7 @@ dependencies:
 flutter:
   assets:
     - assets/catdance.gif
-
+```
 
 ▶️ Running the App
 1. Install dependencies
